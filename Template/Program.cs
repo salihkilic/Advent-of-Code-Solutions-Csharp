@@ -16,7 +16,6 @@ public static class Part2
 {
     public static void Solution()
     {
-        // https://adventofcode.com/2021/day/#
         var inputLines = InputReader.GetInput();
     }
 }
