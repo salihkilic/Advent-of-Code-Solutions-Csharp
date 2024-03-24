@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent-of-Code-Solutions-Csharp", "Advent-of-Code-Solutions-Csharp\Advent-of-Code-Solutions-Csharp.csproj", "{2F60C8F2-92D6-4C7D-AEDE-FC5BE6E857BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2021", "2021", "{F92BE61F-2973-49A5-A2CC-A891C8F2D290}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1", "Day1\Day1.csproj", "{3A2B0426-1FF3-4D50-9468-65A5F0F4FC40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F60C8F2-92D6-4C7D-AEDE-FC5BE6E857BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F60C8F2-92D6-4C7D-AEDE-FC5BE6E857BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F60C8F2-92D6-4C7D-AEDE-FC5BE6E857BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F60C8F2-92D6-4C7D-AEDE-FC5BE6E857BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2B0426-1FF3-4D50-9468-65A5F0F4FC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2B0426-1FF3-4D50-9468-65A5F0F4FC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2B0426-1FF3-4D50-9468-65A5F0F4FC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2B0426-1FF3-4D50-9468-65A5F0F4FC40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A2B0426-1FF3-4D50-9468-65A5F0F4FC40} = {F92BE61F-2973-49A5-A2CC-A891C8F2D290}
+	EndGlobalSection
+EndGlobal
