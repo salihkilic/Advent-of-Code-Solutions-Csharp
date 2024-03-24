@@ -9,7 +9,6 @@ public static class Part1
     {
         // https://adventofcode.com/2021/day/#
         var inputLines = InputReader.GetInput();
-        var inputValues = Array.ConvertAll(inputLines, int.Parse);
     }
 }
 
@@ -19,6 +18,5 @@ public static class Part2
     {
         // https://adventofcode.com/2021/day/#
         var inputLines = InputReader.GetInput();
-        var inputValues = Array.ConvertAll(inputLines, int.Parse);
     }
 }
