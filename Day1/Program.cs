@@ -38,14 +38,7 @@ public static class Part2
 
         for (int measurementIndex = 1; measurementIndex < (inputValues.Length - 2); measurementIndex++)
         {
-            var currentRange = new int[]
-            {
-                inputValues[measurementIndex - 1],
-                inputValues[measurementIndex],
-                inputValues[measurementIndex + 1],
-                inputValues[measurementIndex + 2],
-            };
-
+            var currentRange = inputValues[(measurementIndex - 1)..(measurementIndex + 3)];
             var previousSum = currentRange[0] + currentRange[1] + currentRange[2];
             var currentSum = currentRange[1] + currentRange[2] + currentRange[3];
 
