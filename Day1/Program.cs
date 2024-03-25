@@ -7,6 +7,7 @@ public static class Part1
 {
     public static void Solution()
     {
+        Console.WriteLine("Solution 1:");
         // https://adventofcode.com/2021/day/1
         var inputLines = InputReader.GetInput();
         var inputValues = Array.ConvertAll(inputLines, int.Parse);
@@ -32,6 +33,7 @@ public static class Part2
 {
     public static void Solution()
     {
+        Console.WriteLine("\n-------\nSolution 2:");
         var inputLines = InputReader.GetInput();
         var inputValues = Array.ConvertAll(inputLines, int.Parse);
         var incrementCounter = 0;
